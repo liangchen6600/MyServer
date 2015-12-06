@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{748494EA-099C-4E2B-BC05-113166294811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameData", "..\GameData\GameData\GameData.csproj", "{7D530511-8039-4F49-94AA-2310FB3CA84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteInterface", "..\RemoteInterface\RemoteInterface.csproj", "{F1F9577F-1365-4A83-B713-131B7753AF1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{748494EA-099C-4E2B-BC05-113166294811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748494EA-099C-4E2B-BC05-113166294811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748494EA-099C-4E2B-BC05-113166294811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748494EA-099C-4E2B-BC05-113166294811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D530511-8039-4F49-94AA-2310FB3CA84B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D530511-8039-4F49-94AA-2310FB3CA84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D530511-8039-4F49-94AA-2310FB3CA84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D530511-8039-4F49-94AA-2310FB3CA84B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F9577F-1365-4A83-B713-131B7753AF1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F9577F-1365-4A83-B713-131B7753AF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F9577F-1365-4A83-B713-131B7753AF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F9577F-1365-4A83-B713-131B7753AF1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
